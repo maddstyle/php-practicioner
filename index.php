@@ -11,10 +11,13 @@
 
 // Assosiative array key-value pair
 
-$person = [
-   'age' => 36,
-   'hair' => 'brown',
-   'career' => 'web developer',
+// 
+//homework
+$task = [
+   'title' => 'Finish homework',
+   'due' => 'today',
+   'assigned_to' => 'Chris',
+   'completed' => true // if($completed) {}
 ];
 
 require "index.view.php";
